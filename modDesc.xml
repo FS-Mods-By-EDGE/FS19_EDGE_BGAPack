@@ -2,9 +2,9 @@
 <modDesc descVersion="47">
     <author>Edge Gaming / Castiga</author>
     <translationsby>Castiga</translationsby>
-    <version>1.1.0.0</version>
+    <version>1.0.0.0</version>
     <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
-        <en>EDGE Sign</en>
+        <en>BGA Pack</en>
         <de>EDGE Sign</de>
         <fr>EDGE Sign</fr>
         <es>EDGE Sign</es>
@@ -31,10 +31,7 @@ Overloading Speed 2000 Liters Per Second.
 -Supports "Seasons", "Courseplay Six" & "MaizePlus".
 
 -If you find any bugs or got suggestions for improvment, please dont hesitate to contact us on our Github page at https://github.com/FS19-Mods-By-EDGE/
-or Contact EDGEPureGaming on facebook.
-
-Changelog 1.0.0.0:
-- Initial Realease.]]></en>
+or Contact EDGEPureGaming on facebook.]]></en>
 
 <de><![CDATA[Einige Silos für die Lagerung von Korn. Das Paket enthält vier Hofsilos und 6 Siloerweiterungen.
 
@@ -54,10 +51,7 @@ Fassungsvermögen: 100.000 Liter.
 -Unterstützt "Seasons", "Courseplay Six" und "MaizePlus".
 
 -Wenn Sie Fehler finden oder Verbesserungsvorschläge haben, zögern Sie bitte nicht, uns auf unserer Github-Seite unter https://github.com/FS19-Mods-By-EDGE/
-zu kontaktieren oder EDGEPureGaming auf Facebook zu kontaktieren.
-
-Änderungsprotokoll 1.0.0.0:
-- Erstveröffentlichung.]]></de>
+zu kontaktieren oder EDGEPureGaming auf Facebook zu kontaktieren.]]></de>
 
         <fr><![CDATA[Quelques silos pour stocker votre Grain. Le pack contient 4 silos de ferme et 6 extensions de silo.
 
@@ -77,10 +71,7 @@ Vitesse de surcharge 2000 litres par seconde.
 -Supporte "Seasons", "Courseplay Six" & "MaizePlus".
 
 -Si vous trouvez des bugs ou avez des suggestions d'amélioration, n'hésitez pas à nous contacter sur notre page Github à https://github.com/FS19-Mods-By-EDGE/
-ou Contacter EDGEPureGaming sur facebook.
-
-Changer le journal 1.0.0.0:
-- Première version.]]></fr>
+ou Contacter EDGEPureGaming sur facebook.]]></fr>
 
         <es><![CDATA[Algunos silos para almacenar tu grano. El paquete contiene 4 silos de granja y 6 extensiones de silo.
 
@@ -100,10 +91,7 @@ Velocidad de sobrecarga de 2000 litros por segundo.
 -Soporta "Seasons", "Courseplay Six" y "MaizePlus".
 
 -Si encuentra algún error u obtiene sugerencias de mejora, no dude en contactarnos en nuestra página de Github en https://github.com/FS19-Mods-By-EDGE/
-o póngase en contacto con EDGEPureGaming en Facebook.
-
-Registro de cambios 1.0.0.0:
-- Versión inicial.]]></es>
+o póngase en contacto con EDGEPureGaming en Facebook.]]></es>
 
         <ru><![CDATA[Некоторые бункеры для хранения вашего зерна. Пакет содержит 4 бункера фермы и 6 расширений бункера.
 
@@ -123,10 +111,7 @@ Registro de cambios 1.0.0.0:
 -Поддержка "Seasons", "Courseplay Six" и "MaizePlus".
 
 -Если вы обнаружите какие-либо ошибки или получите предложения по улучшению, пожалуйста, не стесняйтесь связаться с нами на нашей странице Github по адресу https://github.com/FS19-Mods-By-EDGE/
-или связаться с EDGEPureGaming на Facebook.
-
-Изменения 1.0.0.0:
-- Первый выпуск.]]></ru>
+или связаться с EDGEPureGaming на Facebook.]]></ru>
 
         <pl><![CDATA[Niektóre silosy do przechowywania zboża. Pakiet zawiera 4 silosy rolnicze i 6 przedłużeń silosów.
 
@@ -146,10 +131,7 @@ Prędkość przeciążenia 2000 litrów na sekundę.
 -Obsługuje „Seasons”, „Courseplay Six” i „MaizePlus”.
 
 -Jeśli znajdziesz jakieś błędy lub masz sugestie dotyczące ulepszeń, nie wahaj się skontaktować z nami na naszej stronie Github pod adresem https://github.com/FS19-Mods-By-EDGE/
-lub Skontaktuj się z EDGEPureGaming na Facebooku.
-
-Lista zmian 1.0.0.0:
-- Pierwsze wydanie.]]></pl>
+lub Skontaktuj się z EDGEPureGaming na Facebooku.]]></pl>
         <it><![CDATA[Alcuni silos per conservare il grano. Il pacchetto contiene 4 silos agricoli e 6 estensioni per silo.
 
 -Tutti gli edifici hanno l'illuminazione automatica.
@@ -168,30 +150,112 @@ Velocità di sovraccarico 2000 litri al secondo.
 -Supporta "Stagioni", "Courseplay Six" e "MaizePlus".
 
 -Se trovi qualche bug o hai suggerimenti per l'improvvisazione, non esitare a contattarci sulla nostra pagina Github all'indirizzo https://github.com/FS19-Mods-By-EDGE/
-o Contatta EDGEPureGaming su Facebook.
-
-Elenco modifiche 1.0.0.0:
-- Realease iniziale.]]></it>
+o Contatta EDGEPureGaming su Facebook.]]></it>
 	</description>
-    <iconFilename>EdgeSign_Icon.dds</iconFilename>
+    <iconFilename>BGAPack_Icon.dds</iconFilename>
     <multiplayer supported="true"/>
     <storeItems>
-        <storeItem xmlFilename="data/EdgeSign.xml"/>
+        <storeItem xmlFilename="data/BGA_Building.xml"/>
+        <storeItem xmlFilename="data/BGA_Extension.xml"/>
+        <storeItem xmlFilename="data/BGA_FacilityL.xml"/>
+        <storeItem xmlFilename="data/BGA_FacilityS.xml"/>
     </storeItems>
-	<l10n filenamePrefix="modDesc/modDesc_l10n"/>
     <brands>
         <brand name="EDGE" title="EDGE Industries" image="store/EDGE_Brand_Logo.dds"/>
     </brands>
-    <!-- <l10n>
-        <text name="name_MultiSellingStation">
-            <en>Multi Selling Station</en>
-            <de>Multi Verkaufsstation</de>
-            <fr>Poste De Vente Multiple</fr>
-            <es>Estación De Venta Múltiple</es>
-            <ru>Мультипродажная станция</ru>
-            <pl>Stacja Sprzedaży</pl>
+    <l10n>
+        <text name="function_EDGElights">
+            <en>This Building have automatic lighting.</en>
+            <de>Dieses Gebäude verfügt über eine automatische Beleuchtung.</de>
+            <fr>Ce bâtiment a un éclairage automatique.</fr>
+            <es>Este edificio tiene iluminación automática.</es>
+            <ru>Это здание имеет автоматическое освещение.</ru>
+            <pl>Ten budynek ma automatyczne oświetlenie.</pl>
+            <it>Questo edificio ha illuminazione automatica.</it>
         </text>
-    </l10n> -->
+        <text name="shopItem_BGA_Building">
+            <en>Small BGA</en>
+            <de>Kleine BGA</de>
+            <fr>Petit BGA</fr>
+        </text>
+        <text name="function_BGA_Building">
+            <en>A small placeable BGA, Pays out at midnight</en>
+            <de>Eine kleine platzierbare BGA, zahlt sich um Mitternacht aus</de>
+            <fr>Un petit BGA placable, paye à minuit</fr>
+        </text>
+        <text name="BGA_Building">
+            <en>Small BGA</en>
+            <de>Kleine BGA</de>
+            <fr>Petit BGA</fr>
+        </text>
+        <text name="shopItem_BGA_FacilityL">
+            <en>Small BGA</en>
+            <de>Kleine BGA</de>
+            <fr>Petit BGA</fr>
+        </text>
+        <text name="function_BGA_FacilityL">
+            <en>A small placeable BGA, Pays out at midnight</en>
+            <de>Eine kleine platzierbare BGA, zahlt sich um Mitternacht aus</de>
+            <fr>Un petit BGA placable, paye à minuit</fr>
+        </text>
+        <text name="BGA_FacilityL">
+            <en>Small BGA</en>
+            <de>Kleine BGA</de>
+            <fr>Petit BGA</fr>
+        </text>
+        <text name="shopItem_BGA_FacilityS">
+            <en>Small BGA</en>
+            <de>Kleine BGA</de>
+            <fr>Petit BGA</fr>
+        </text>
+        <text name="function_BGA_FacilityS">
+            <en>A small placeable BGA, Pays out at midnight</en>
+            <de>Eine kleine platzierbare BGA, zahlt sich um Mitternacht aus</de>
+            <fr>Un petit BGA placable, paye à minuit</fr>
+        </text>
+        <text name="BGA_FacilityS">
+            <en>Small BGA</en>
+            <de>Kleine BGA</de>
+            <fr>Petit BGA</fr>
+        </text>
+        <text name="shopItem_BGA_Extension">
+            <en>BGA Digestate Extension Tank</en>
+            <de>BGA Verdauen Ausgleichsbehälter</de>
+            <fr>BGA Réservoir d'extension de digestat</fr>
+        </text>
+        <text name="function_BGA_Extension">
+            <en>Increases the Digestate storage capacity</en>
+            <de>Erhöht die Digestate-Speicherkapazität</de>
+            <fr>Augmente la capacité de stockage Digestate</fr>
+        </text>
+        <text name="action_turnOnMarking">
+            <en>Show warning Stripes</en>
+            <de>Eckmarkierungen einblenden</de>
+            <fr>Afficher les rayures d'avertissement</fr>
+            <es>Mostrar franjas de advertencia</es>
+            <ru>Показать предупреждение полосы</ru>
+            <pl>Pokaż paski ostrzegawcze</pl>
+            <it>Mostra strisce di avviso</it>
+        </text>
+        <text name="action_turnOffMarking">
+            <en>Hide warning Stripes</en>
+            <de>Eckmarkierungen ausblenden</de>
+            <fr>Masquer les bandes d'avertissement</fr>
+            <es>Ocultar rayas de advertencia</es>
+            <ru>Скрыть предупреждение полосы</ru>
+            <pl>Ukryj paski ostrzegawcze</pl>
+            <it>Nascondi le strisce di avvertimento</it>
+        </text>
+        <text name="action_turnOnAutoLight">
+            <en>Set lights to automatic</en>
+            <de>Stellen Sie die Lichter auf automatisch</de>
+            <fr>Réglez les lumières sur automatique</fr>
+            <es>Establecer luces en automático</es>
+            <ru>Установить огни на автоматический</ru>
+            <pl>Ustaw światła na automatyczne</pl>
+            <it>Impostare le luci su automatico</it>
+        </text>
+    </l10n>
     <credits><![CDATA[
 ## Contributors
 - Castiga, EDGE Gaming
