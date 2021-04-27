@@ -2,94 +2,98 @@
 
 <i3D name="bgaBuildings.blend" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
   <Asset>
-    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+    <Export program="GIANTS Editor 64bit" version="8.2.2"/>
   </Asset>
 
   <Files>
-    <File fileId="9" filename="textures/addons_diffuse.dds"/>
-    <File fileId="10" filename="textures/addons_normal.dds"/>
-    <File fileId="11" filename="textures/addons_specular.dds"/>
+    <File fileId="10" filename="textures/addons_diffuse.dds"/>
+    <File fileId="11" filename="textures/addons_normal.dds"/>
+    <File fileId="12" filename="textures/addons_specular.dds"/>
     <File fileId="1" filename="textures/bgaDark_diffuse.dds"/>
-    <File fileId="17" filename="textures/bgaDecals_diffuse.dds"/>
-    <File fileId="18" filename="textures/bgaDecals_normal.dds"/>
-    <File fileId="19" filename="textures/bgaDecals_specular.dds"/>
+    <File fileId="18" filename="textures/bgaDecals_diffuse.dds"/>
+    <File fileId="19" filename="textures/bgaDecals_normal.dds"/>
+    <File fileId="20" filename="textures/bgaDecals_specular.dds"/>
     <File fileId="2" filename="textures/bga_normal.dds"/>
-    <File fileId="16" filename="textures/decalOilSlicks_diffuse.dds"/>
-    <File fileId="12" filename="textures/manholeCover_diffuse.dds"/>
-    <File fileId="13" filename="textures/manholeCover_normal.dds"/>
-    <File fileId="14" filename="textures/manholeCover_specular.dds"/>
-    <File fileId="24" filename="textures/streetLightGlass_diffuse.dds"/>
-    <File fileId="26" filename="textures/streetLightGlass_specular.dds"/>
-    <File fileId="21" filename="textures/streetLight_diffuse.dds"/>
-    <File fileId="22" filename="textures/streetLight_normal.dds"/>
-    <File fileId="23" filename="textures/streetLight_specular.dds"/>
-    <File fileId="28" filename="$data/maps/textures/european/props/lightPoleSet_emissive.dds"/>
-    <File fileId="25" filename="$data/maps/textures/shared/default_normal.dds"/>
-    <File fileId="32" filename="$data/maps/textures/shared/numbers_diffuse.dds"/>
-    <File fileId="34" filename="$data/maps/textures/shared/warningStripes_diffuse.dds"/>
-    <File fileId="35" filename="$data/maps/textures/shared/warningStripes_normal.dds"/>
-    <File fileId="36" filename="$data/maps/textures/shared/warningStripes_specular.dds"/>
-    <File fileId="29" filename="$data/maps/textures/shared/weightDisplay_diffuse.dds"/>
-    <File fileId="30" filename="$data/maps/textures/shared/weightDisplay_normal.dds"/>
-    <File fileId="31" filename="$data/maps/textures/shared/weightDisplay_specular.dds"/>
-    <File fileId="3" filename="$data/shaders/buildingShader.xml"/>
-    <File fileId="27" filename="$data/shaders/dashboardLightsShader.xml"/>
-    <File fileId="20" filename="$data/shaders/decalShader.xml"/>
-    <File fileId="33" filename="$data/shaders/numberShader.xml"/>
+    <File fileId="3" filename="textures/bga_specular.dds"/>
+    <File fileId="17" filename="textures/decalOilSlicks_diffuse.dds"/>
+    <File fileId="13" filename="textures/manholeCover_diffuse.dds"/>
+    <File fileId="14" filename="textures/manholeCover_normal.dds"/>
+    <File fileId="15" filename="textures/manholeCover_specular.dds"/>
+    <File fileId="25" filename="textures/streetLightGlass_diffuse.dds"/>
+    <File fileId="27" filename="textures/streetLightGlass_specular.dds"/>
+    <File fileId="22" filename="textures/streetLight_diffuse.dds"/>
+    <File fileId="23" filename="textures/streetLight_normal.dds"/>
+    <File fileId="24" filename="textures/streetLight_specular.dds"/>
+    <File fileId="5" filename="../../Farming_Simulator_19_Mods/WORK STUFF!!!/FS19_EDGE_BGAPack/textures/bgaDark_specular.dds"/>
+    <File fileId="29" filename="$data/maps/textures/european/props/lightPoleSet_emissive.dds"/>
+    <File fileId="26" filename="$data/maps/textures/shared/default_normal.dds"/>
+    <File fileId="33" filename="$data/maps/textures/shared/numbers_diffuse.dds"/>
+    <File fileId="35" filename="$data/maps/textures/shared/warningStripes_diffuse.dds"/>
+    <File fileId="36" filename="$data/maps/textures/shared/warningStripes_normal.dds"/>
+    <File fileId="37" filename="$data/maps/textures/shared/warningStripes_specular.dds"/>
+    <File fileId="30" filename="$data/maps/textures/shared/weightDisplay_diffuse.dds"/>
+    <File fileId="31" filename="$data/maps/textures/shared/weightDisplay_normal.dds"/>
+    <File fileId="32" filename="$data/maps/textures/shared/weightDisplay_specular.dds"/>
+    <File fileId="4" filename="$data/shaders/buildingShader.xml"/>
+    <File fileId="28" filename="$data/shaders/dashboardLightsShader.xml"/>
+    <File fileId="21" filename="$data/shaders/decalShader.xml"/>
+    <File fileId="34" filename="$data/shaders/numberShader.xml"/>
   </Files>
 
 
   <Materials>
-    <Material name="streetLightGlass_mat" materialId="9" alphaBlending="true" customShaderId="27">
-      <Texture fileId="24"/>
-      <Normalmap fileId="25"/>
-      <Glossmap fileId="26"/>
-      <Custommap name="mEmissiveMap" fileId="28"/>
-      <CustomParameter name="lightControl" value="5 1 1 1"/>
+    <Material name="addons_mat" materialId="10">
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="12"/>
     </Material>
-    <Material name="weightDisplay_mat" materialId="5">
-      <Texture fileId="29"/>
-      <Normalmap fileId="30"/>
-      <Glossmap fileId="31"/>
+    <Material name="bga_mat" materialId="14" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="mMaskMap" fileId="5"/>
     </Material>
-    <Material name="streetLight_mat" materialId="7">
-      <Texture fileId="21"/>
-      <Normalmap fileId="22"/>
-      <Glossmap fileId="23"/>
+    <Material name="bgaDecals_mat" materialId="7" alphaBlending="true" customShaderId="21">
+      <Texture fileId="18"/>
+      <Normalmap fileId="19"/>
+      <Glossmap fileId="20"/>
     </Material>
-    <Material name="bgaDecals_mat" materialId="8" alphaBlending="true" customShaderId="20">
+    <Material name="decalOilSlick_mat" materialId="12" alphaBlending="true">
       <Texture fileId="17"/>
-      <Normalmap fileId="18"/>
-      <Glossmap fileId="19"/>
     </Material>
-    <Material name="numbers_mat" materialId="10" customShaderId="33">
-      <Emissivemap fileId="32"/>
+    <Material name="lambert1" materialId="13" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="manholeCover_mat" materialId="11">
+      <Texture fileId="13"/>
+      <Normalmap fileId="14"/>
+      <Glossmap fileId="15"/>
+    </Material>
+    <Material name="numbers_mat" materialId="8" customShaderId="34">
+      <Emissivemap fileId="33"/>
       <CustomParameter name="number" value="-1 0 0 0"/>
       <CustomParameter name="numberColor" value="1 0.5 0.25 1"/>
     </Material>
-    <Material name="warningStripes_mat" materialId="4">
-      <Texture fileId="34"/>
-      <Normalmap fileId="35"/>
-      <Glossmap fileId="36"/>
+    <Material name="streetLight_mat" materialId="6">
+      <Texture fileId="22"/>
+      <Normalmap fileId="23"/>
+      <Glossmap fileId="24"/>
     </Material>
-    <Material name="addons_mat" materialId="14">
-      <Texture fileId="9"/>
-      <Normalmap fileId="10"/>
-      <Glossmap fileId="11"/>
+    <Material name="streetLightGlass_mat" materialId="4" alphaBlending="true" customShaderId="28">
+      <Texture fileId="25"/>
+      <Normalmap fileId="26"/>
+      <Glossmap fileId="27"/>
+      <Custommap name="mEmissiveMap" fileId="29"/>
+      <CustomParameter name="lightControl" value="5 1 1 1"/>
     </Material>
-    <Material name="manholeCover_mat" materialId="12">
-      <Texture fileId="12"/>
-      <Normalmap fileId="13"/>
-      <Glossmap fileId="14"/>
+    <Material name="warningStripes_mat" materialId="9">
+      <Texture fileId="35"/>
+      <Normalmap fileId="36"/>
+      <Glossmap fileId="37"/>
     </Material>
-    <Material name="decalOilSlick_mat" materialId="11" alphaBlending="true">
-      <Texture fileId="16"/>
-    </Material>
-    <Material name="lambert1" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1">
-    </Material>
-    <Material name="bga_mat" materialId="13" customShaderId="3">
-      <Texture fileId="1"/>
-      <Normalmap fileId="2"/>
+    <Material name="weightDisplay_mat" materialId="5">
+      <Texture fileId="30"/>
+      <Normalmap fileId="31"/>
+      <Glossmap fileId="32"/>
     </Material>
   </Materials>
 
@@ -103,43 +107,43 @@
 
   <Scene>
     <TransformGroup name="bga_Building" nodeId="34">
-      <Shape shapeId="1" name="bga_vis" translation="-4.36615 2.14332 -4.52776" clipDistance="700" nodeId="35" materialIds="13" castsShadows="true" receiveShadows="true">
-        <Shape shapeId="2" name="addons" translation="3.32778 0.659 -0.0476003" clipDistance="700" nodeId="36" materialIds="14" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="3" name="manholeCover" translation="6.61705 -2.81282 5.08253" clipDistance="120" nodeId="37" materialIds="12" castsShadows="true" receiveShadows="true">
-            <Shape shapeId="4" name="col" visibility="false" static="true" density="0.0001" nodeId="38" materialIds="6" nonRenderable="true"/>
+      <Shape shapeId="1" name="bga_vis" translation="-4.36615 2.14332 -4.52776" clipDistance="700" nodeId="35" materialIds="14" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="2" name="addons" translation="3.32778 0.659 -0.0476003" clipDistance="700" nodeId="36" materialIds="10" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="manholeCover" translation="6.61705 -2.81282 5.08253" clipDistance="120" nodeId="37" materialIds="11" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="4" name="col" visibility="false" static="true" density="0.0001" nodeId="38" materialIds="13" nonRenderable="true"/>
           </Shape>
         </Shape>
         <TransformGroup name="decals" translation="4.36615 -2.14332 4.52776" nodeId="39">
-          <Shape shapeId="5" name="oilSlickDecal" translation="0.481 0 -0.751152" scale="1 0.814996 1" clipDistance="100" nodeId="40" materialIds="11" receiveShadows="true" decalLayer="1"/>
-          <Shape shapeId="6" name="dirtDecals" translation="0.539259 -0.407276 -0.371599" rotation="0 -0.760034 0" scale="1.065 1 1.065" clipDistance="100" nodeId="41" materialIds="8" receiveShadows="true" decalLayer="1"/>
+          <Shape shapeId="5" name="oilSlickDecal" translation="0.481 0 -0.751152" scale="1 0.814996 1" clipDistance="100" nodeId="40" materialIds="12" receiveShadows="true" decalLayer="1"/>
+          <Shape shapeId="6" name="dirtDecals" translation="0.539259 -0.407276 -0.371599" rotation="0 -0.760034 0" scale="1.065 1 1.065" clipDistance="100" nodeId="41" materialIds="7" receiveShadows="true" decalLayer="1"/>
         </TransformGroup>
         <TransformGroup name="silage" translation="-0.271574 -1.17332 12.9148" nodeId="42"/>
         <TransformGroup name="lights" nodeId="43">
-          <Shape shapeId="7" name="streetLight" translation="3.89715 -2.2106 9.512" rotation="-5.31032e-11 90 0" clipDistance="120" nodeId="44" materialIds="7" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="streetLight" translation="3.89715 -2.2106 9.512" rotation="-5.31032e-11 90 0" clipDistance="120" nodeId="44" materialIds="6" castsShadows="true" receiveShadows="true">
             <TransformGroup name="illum" nodeId="45">
-              <Shape shapeId="8" name="glass" translation="0 0 0.000256801" clipDistance="120" nodeId="46" materialIds="9" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="8" name="glass" translation="0 0 0.000256801" clipDistance="120" nodeId="46" materialIds="4" castsShadows="true" receiveShadows="true"/>
               <Light name="spotLight2" translation="-2.08664 7.78821 -5.2363e-07" rotation="-90 0 0" visibility="false" clipDistance="120" nodeId="47" type="spot" color="0.45 0.45 0.45" emitDiffuse="true" emitSpecular="true" decayRate="1" range="15" coneAngle="100" dropOff="1"/>
             </TransformGroup>
-            <Shape shapeId="9" name="col" visibility="false" static="true" density="0.0001" nodeId="48" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="9" name="col" visibility="false" static="true" density="0.0001" nodeId="48" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
           </Shape>
         </TransformGroup>
       </Shape>
       <TransformGroup name="bunker" nodeId="49">
         <TransformGroup name="unloadingStation" translation="-4.64393 0 10.798" nodeId="50">
-          <Shape shapeId="10" name="exactFillRootNode" translation="0 -1.17909 -5" static="true" trigger="true" collisionMask="1073741824" nodeId="51" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-          <Shape shapeId="11" name="baleTrigger" translation="0 0 -5" static="true" trigger="true" collisionMask="16781312" nodeId="52" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="10" name="exactFillRootNode" translation="0 -1.17909 -5" static="true" trigger="true" collisionMask="1073741824" nodeId="51" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="11" name="baleTrigger" translation="0 0 -5" static="true" trigger="true" collisionMask="16781312" nodeId="52" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
         </TransformGroup>
         <Shape shapeId="12" name="weightDisplay" translation="-4.633 0.866 5.209" static="true" clipDistance="300" nodeId="53" materialIds="5" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="13" name="numberPart01" translation="0.647401 3.04655 0.0365678" nodeId="54" materialIds="10" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="14" name="numberPart02" translation="0.557401 3.04655 0.0365678" nodeId="55" materialIds="10" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="15" name="numberPart03" translation="0.467362 3.04655 0.0365678" nodeId="56" materialIds="10" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="15" name="numberPart04" translation="0.377362 3.04655 0.0365678" nodeId="57" materialIds="10" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="16" name="numberPart05" translation="0.287362 3.04655 0.0365678" nodeId="58" materialIds="10" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="13" name="numberPart06" translation="0.197362 3.04655 0.0365678" nodeId="59" materialIds="10" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="13" name="numberPart07" translation="0.107362 3.04655 0.0365678" nodeId="60" materialIds="10" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="14" name="numberPart08" translation="0.0173616 3.04655 0.0365678" nodeId="61" materialIds="10" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="15" name="numberPart09" translation="-0.0726384 3.04655 0.0365678" nodeId="62" materialIds="10" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="15" name="numberPart10" translation="-0.162638 3.04655 0.0365678" nodeId="63" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="13" name="numberPart01" translation="0.647401 3.04655 0.0365678" nodeId="54" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="14" name="numberPart02" translation="0.557401 3.04655 0.0365678" nodeId="55" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="15" name="numberPart03" translation="0.467362 3.04655 0.0365678" nodeId="56" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="15" name="numberPart04" translation="0.377362 3.04655 0.0365678" nodeId="57" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="16" name="numberPart05" translation="0.287362 3.04655 0.0365678" nodeId="58" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="13" name="numberPart06" translation="0.197362 3.04655 0.0365678" nodeId="59" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="13" name="numberPart07" translation="0.107362 3.04655 0.0365678" nodeId="60" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="14" name="numberPart08" translation="0.0173616 3.04655 0.0365678" nodeId="61" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="15" name="numberPart09" translation="-0.0726384 3.04655 0.0365678" nodeId="62" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="15" name="numberPart10" translation="-0.162638 3.04655 0.0365678" nodeId="63" materialIds="8" castsShadows="true" receiveShadows="true"/>
         </Shape>
         <TransformGroup name="soundNode" translation="-4.64841 0.591576 6.81657" nodeId="64"/>
         <Light name="light" translation="-4.34795 3.83662 5.8936" nodeId="65" type="point" color="1 0.2 0" emitDiffuse="true" emitSpecular="true" decayRate="4" range="1"/>
@@ -147,13 +151,13 @@
       </TransformGroup>
       <TransformGroup name="digestateSilo" translation="11.8588 5.52327 -1.6088" scale="1.5 1 1.5" clipDistance="77" nodeId="67">
         <TransformGroup name="loadingStation" nodeId="68">
-          <Shape shapeId="17" name="loadingTrigger" static="true" trigger="true" collisionMask="1073741824" nodeId="69" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="17" name="loadingTrigger" static="true" trigger="true" collisionMask="1073741824" nodeId="69" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
           <TransformGroup name="dischargeNode" translation="0 -1.40089 0" nodeId="70"/>
         </TransformGroup>
         <TransformGroup name="storage" translation="-10.9637 -5.523 -2.12471" nodeId="71"/>
       </TransformGroup>
       <TransformGroup name="warningStripes" translation="-6.0738 0 8.67287" rotation="0 -90 0" scale="1 1 1.43004" nodeId="72">
-        <Shape shapeId="18" name="stripe" translation="0.84 0 -1" rotation="0 90 0" scale="1.201 1 1" clipDistance="100" nodeId="73" materialIds="4" receiveShadows="true" decalLayer="1"/>
+        <Shape shapeId="18" name="stripe" translation="0.84 0 -1" rotation="0 90 0" scale="1.201 1 1" clipDistance="100" nodeId="73" materialIds="9" receiveShadows="true" decalLayer="1"/>
       </TransformGroup>
       <TransformGroup name="areaDefinitions" nodeId="74">
         <TransformGroup name="start" translation="-14 0 -13" nodeId="75">
